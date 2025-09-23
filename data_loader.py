@@ -1,6 +1,10 @@
-# скрипт выгрузки файла из Google Drive:
 import pandas as pd
-FILE_ID = "1eUWO6tAac-u-a1IrIqXJWgKE_4JJyjWt"
-file_url = f"https://drive.google.com/uc?id={FILE_ID}"
-raw_data = pd.read_csv(file_url)
-print(raw_data.head(10)) # выводим первые 10 строк датасета
+
+# Присвоение имени файла (датасет)
+file_name = 'Homo_sapiens.GRCh38.92.csv'
+
+# Загрузка данных в датафрэйм
+raw_data = pd.read_csv(file_name)
+
+# Вывод первых 10 строк датасета
+print(raw_data.head(10))
