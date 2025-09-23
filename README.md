@@ -1,6 +1,4 @@
 # Data Engineering_ITMO 2025
 
-Homework №1
-Link: https://drive.google.com/drive/folders/128p_E86Ceer08JPGr8vKWPMkmyKI3pSv?usp=share_link
+Ссылка на датасет: https://drive.google.com/drive/folders/128p_E86Ceer08JPGr8vKWPMkmyKI3pSv?usp=share_link
 
-Homework №2
