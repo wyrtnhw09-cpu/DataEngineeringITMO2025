@@ -15,7 +15,8 @@
 ### Ожидаемый результат
 
 Скрипт загрузит данные из файла `Homosapiens.GRCh38.92.csv` и выведет первые 10 строк датасета в консоль.
-<img width="1468" height="699" alt="Снимок экрана 2025-10-28 в 12 58 26 AM" src="https://github.com/user-attachments/assets/18c7a4fd-b80a-4b39-bd91-4abe9d2eb253" />
+<img width="1468" height="699" alt="Снимок экрана 2025-10-28 в 1 47 01 AM" src="https://github.com/user-attachments/assets/02101a84-8b8e-4cc6-8195-d71a3e68ec58" />
+
 
 
 
