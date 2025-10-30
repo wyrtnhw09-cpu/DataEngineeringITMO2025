@@ -9,7 +9,6 @@
 ## Установка
 
 Для установки зависимостей используйте [Poetry](https://python-poetry.org/):
-```bash
 poetry run python dataloader.py
 
 Ожидаемый результат
