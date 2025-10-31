@@ -299,7 +299,6 @@ DataEngineeringITMO2025/
 </div>
 
 # **Команда проекта**
-
 <div align="center">
 
 | Роль | ФИО | Вклад в проект |
