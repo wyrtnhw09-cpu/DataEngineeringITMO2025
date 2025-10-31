@@ -125,7 +125,7 @@ jupyter notebook notebooks/EDA.ipynb
 
 ## **ETL Пакет**
 
-### **Структура пакета:**
+### **Структура пакета**
 
 <div align="center">
 
