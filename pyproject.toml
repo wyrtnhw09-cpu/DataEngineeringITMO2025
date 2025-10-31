@@ -1,22 +1,37 @@
 [project]
-name = "dataengineeringitmo2025"
-version = "0.1.0"
-description = ""
+name = "genoflow-engine"
+version = "1.0.0"
+description = "ETL pipeline for genomic data processing and analysis"
 authors = [
-    {name = "Julia Bazhenova, email = wyrtnh.w09@mail.ru"}
+    {name = "Julia Bazhenova", email = "wyrtnh.w09@mail.ru"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9"
 dependencies = [
-    "jupyterlab (>=4.4.7,<5.0.0)",
-    "pandas (>=2.3.2,<3.0.0)",
-    "matplotlib (>=3.10.6,<4.0.0)",
-    "wget (>=3.2,<4.0)"
+    "jupyterlab>=4.4.7",
+    "pandas>=2.3.2",
+    "matplotlib>=3.10.6",
+    "seaborn>=0.13.0",
+    "plotly>=5.10.0",
+    "sqlite3",
+    "pyarrow>=12.0.0",
+    "biopython>=1.81"
 ]
 
-[tool.poetry]
-packages = [{include = "my_project", from = "src"}]
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wyrtnhw09-cpu/DataEngineeringITMO2025"
+"Repository" = "https://github.com/wyrtnhw09-cpu/DataEngineeringITMO2025"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=2.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+genoflow = "etl.main:main"
