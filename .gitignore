@@ -8,28 +8,11 @@ data/
 .DS_Store
 __pycache__/
 *.pyc
-Thumbs.db
 
 # Large files
 *.png
 *.jpg
-*.jpeg
-*.pdf
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
 
 # Backup files
 *.backup
-*.tmp
-
-# Environment files
-.env
-.venv
-venv/
-
-# Poetry
-poetry.lock
+EOF
