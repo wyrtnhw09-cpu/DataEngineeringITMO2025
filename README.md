@@ -78,15 +78,14 @@ jupyter notebook notebooks/EDA.ipynb
 
 **Exploratory Data Analysis (EDA)**
 
-Полный EDA ноутбук: https://nbviewer.org/github/wyrtnhw09-cpu/DataEngineeringITMO2025/notebooks/EDA.ipynb
+[![EDA Progress](https://img.shields.io/badge/АНАЛИЗ-100%25-00B0FF?style=flat-square)](https://github.com/wyrtnhw09-cpu/DataEngineeringITMO2025/blob/main/notebooks/EDA.ipynb)
 
-Полный интерактивный анализ включает:
+> **Ноутбук анализа:** [EDA.ipynb](https://github.com/wyrtnhw09-cpu/DataEngineeringITMO2025/blob/main/notebooks/EDA.ipynb)
 
-1. Предобработка данных
-2. Очистка от дубликатов и аномалий
-3. Валидация геномных координат
-4. Обработка пропущенных значений
-5. Статистический анализ
+- Предобработка данных
+- Статистический анализ  
+- Визуализации
+- Геномный анализ
 
 ### **Ключевые метрики датасета**
 **Общее количество генов:** 67,281
