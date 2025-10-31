@@ -127,8 +127,6 @@ jupyter notebook notebooks/EDA.ipynb
 
 ### **Структура пакета**
 
-<div align="center">
-
 DataEngineeringITMO2025/
 ├── ETL ПАКЕТ
 │ ├── init.py
@@ -148,8 +146,6 @@ DataEngineeringITMO2025/
 ├── README.md
 ├── .gitignore
 └── pyproject.toml
-
-</div>
 
 ### **Детальное описание структуры**
 
