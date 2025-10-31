@@ -69,6 +69,25 @@ jupyter notebook notebooks/EDA.ipynb
 
 **Размер:** `501 MB` • **Формат:** `CSV` • **Строк:** `2.6M+`
 
+### **Вывод данных**
+
+```bash
+# Установите библиотеки
+import pandas as pd
+import numpy as np
+pip install gdown
+import gdown
+
+# Загрузите датасет
+gdown.download('https://drive.google.com/uc?id=1eUWO6tAac-u-a1IrIqXJWgKE_4JJyjWt', 'data.csv', quiet=False)
+data = pd.read_csv('data.csv')
+
+# Выведите первые 10 строк
+data.head(10)
+```
+### **Ожидаемый результат**
+<img width="1438" height="614" alt="Снимок экрана 2025-10-29 в 9 50 14 PM" src="https://github.com/user-attachments/assets/17d7735b-9057-42e3-9281-c8c124793e6f" />
+
 </div>
 
 **Описание:** Аннотации генов человека сборки GRCh38 с 32 признаками, включая координаты генов, биотипы, идентификаторы и функциональные характеристики.
