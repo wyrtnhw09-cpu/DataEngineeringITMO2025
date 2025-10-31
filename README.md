@@ -123,9 +123,7 @@ jupyter notebook notebooks/EDA.ipynb
 
 </div>
 
-## **ETL Пакет**
-
-### **Структура пакета**
+### **Структура проекта**
 
 ```bash
 DataEngineeringITMO2025/
