@@ -255,23 +255,6 @@ jupyter = "^1.0.0"     # Интерактивная среда
 matplotlib = "^3.6.0"  # Построение графиков
 ```
 
-## **Структура проекта**
-
-```bash
-DataEngineeringITMO2025/
-├── notebooks/
-│   └── EDA.ipynb                 # Полный анализ данных
-├── src/
-│   ├── data_loader.py            # Загрузка и предобработка
-│   ├── processing/               # Модули обработки
-│   └── visualization/            # Утилиты визуализации
-├── data/
-│   └── raw/                      # Исходные данные
-├── docs/                         # Документация
-├── pyproject.toml                # Конфигурация Poetry
-└── README.md                     # Этот файл
-```
-
 # **Результаты**
 
 <div align="center">
